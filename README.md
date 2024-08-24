@@ -1,6 +1,6 @@
 # DNA Sequence Classification using Convolutional Neural Networks
 
-This project uses a Convolutional Neural Network (CNN) to classify DNA sequences into different categories (promoter regions, coding sequences, or regulatory elements).
+This project uses a Convolutional Neural Network (CNN) to classify DNA sequences as promoters or non-promoters using the "Molecular Biology (Promoter Gene Sequences)" dataset from the UCI Machine Learning Repository.
 
 ## Requirements
 - Python 3.7+
@@ -22,13 +22,15 @@ The CNN model consists of:
 - Two dense layers
 
 ## Data
-This example uses generated sample data. For real-world applications, replace the `generate_sample_data` function with your own data loading mechanism.
+This project uses the "Molecular Biology (Promoter Gene Sequences)" dataset from the UCI Machine Learning Repository. The dataset contains DNA sequences classified as either promoters or non-promoters.
+
+Dataset URL: https://archive.ics.uci.edu/ml/machine-learning-databases/molecular-biology/promoter-gene-sequences/promoters.data
 
 ## Results
 The model's performance can be evaluated using the printed test accuracy and sample prediction.
 
 ## Future Improvements
-- Use real DNA sequence data
 - Experiment with different model architectures
 - Implement cross-validation
 - Add data visualization for model performance
+- Try other DNA sequence datasets
