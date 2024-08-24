@@ -29,7 +29,7 @@ Dataset URL: https://archive.ics.uci.edu/ml/machine-learning-databases/molecular
 
 Note: The data preprocessing step includes removing any whitespace, converting sequences to uppercase, and padding sequences to ensure uniform length.
 ## Results
-The model's performance can be evaluated using the printed test accuracy and sample prediction. See the "" file for more information.
+The model's performance can be evaluated using the printed test accuracy and sample prediction. See the "DNA Sequence Classification project.ipynb" file for more information.
 
 ![image](https://github.com/user-attachments/assets/101ed5b4-60c3-45f3-aa23-b9aba97742ec)
 
